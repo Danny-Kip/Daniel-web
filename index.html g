@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twickenham Estate</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .column {
+            flex-basis: 48%;
+            margin-bottom: 20px;
+        }
+
+        .column img {
+            width: 100%;
+            height: auto;
+        }
+
+        @media screen and (max-width: 768px) {
+            .column {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Twickenham Estate</h1>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="column">
+            <section id="about">
+                <h2>About Us</h2>
+                <p>
+                   About Us:
+                    At Twickenham Estate, we pride ourselves on offering unparalleled luxury living in the heart of Mungoni. Nestled amidst breathtaking landscapes, our estate boasts meticulously crafted properties designed to elevate your lifestyle. With a prime location just a stone's throw away from Mungoni, our two-bedroom residences redefine modern living, combining sophisticated elegance with natural tranquility.
+                    
+                    
+                    Welcome to Twickenham Estate, your gateway to luxurious living in the serene surroundings of Mungoni. Our meticulously designed two-bedroom residences offer the perfect blend of comfort and sophistication, providing you with an unparalleled living experience. Whether you're seeking a peaceful retreat or a vibrant community atmosphere, Twickenham Estate has something for everyone.
+                    
+                    Discover the beauty of nature right outside your doorstep, with scenic landscapes and lush greenery that create an idyllic setting for relaxation and rejuvenation. Each residence is thoughtfully crafted to maximize space and functionality, featuring modern amenities and elegant finishes that cater to your every need.
+                    
+                    Conveniently located just minutes away from Mungoni, Twickenham Estate offers easy access to a wealth of amenities, including shopping centers, restaurants, and recreational facilities. Whether you're unwinding in the comfort of your own home or exploring the vibrant neighborhood, you'll find endless opportunities for entertainment and leisure.
+                    
+                    Experience the epitome of luxury living at Twickenham Estate, where every detail is designed with your comfort and convenience in mind. Come home to a place where tranquility meets sophistication, and discover a lifestyle unlike any other. Welcome to Twickenham Estate – your sanctuary in Mungoni. </p>
+            </section>
+        </div>
+        <div class="column">
+            <section id="services">
+                <h2>Services</h2>
+                <ul>
+                    <li>Luxury Villas</li>
+                    <li>Scenic Landscapes</li>
+                    <li>Private Gardens</li>
+                    <li>24/7 Security</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <div class="container">
+        <div class="column">
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Address: 123 Estate Lane, Twickenham</p>
+                <p>Phone: 555-1234</p>
+                <p>Email: info@twickenhamestate.com</p>
+            </section>
+        </div>
+        <div class="column">
+            <!-- Placeholder for picture -->
+            <img src="D:\Danny\1858.jpg" alt="Placeholder Image">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Twickenham Estate. All rights reserved.</p>
+    </footer>
+</body>
+</html>
